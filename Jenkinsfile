@@ -18,7 +18,7 @@ pipeline {
     }
     stage('report') {
       steps {
-        cucumber fileIncludePattern: '**/*.json', sortingMethod: 'ALPHABETICAL'
+        echo "Congratulations, Your Build Pipeline has executed successfully"
       }
     }
   }
